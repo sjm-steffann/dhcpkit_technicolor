@@ -6,7 +6,7 @@
 
 # IDE files
 /.idea/
-/dhcpkit-technicolor.iml
+/dhcpkit_technicolor.iml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

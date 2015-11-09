@@ -1,5 +1,5 @@
 """
-Setup script for dhcpkit-technicolor
+Setup script for dhcpkit_technicolor
 """
 import os
 
@@ -29,7 +29,7 @@ setup(
     description='Technicolor-specific extensions to DHCPKit',
     long_description=read('README.rst'),
     keywords='dhcp server ipv6 technicolor',
-    url='https://github.com/sjm-steffann/dhcpkit-technicolor',
+    url='https://github.com/sjm-steffann/dhcpkit_technicolor',
     license='GPLv3',
     classifiers=[
         'Development Status :: 4 - Beta',
