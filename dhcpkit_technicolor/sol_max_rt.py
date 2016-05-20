@@ -115,8 +115,8 @@ class SolMaxRTTechnicolorOptionHandler(OverwritingOptionHandler):
         :return: A handler object
         :rtype: OptionHandler
         """
-        sol_max_rt = section.getint('sol-max-rt')
+        sol_max_rt = section.get('sol-max-rt')
         if sol_max_rt is None:
             raise configparser.NoOptionError('sol-max-rt', section.name)
 
-        return cls(sol_max_rt)
+        return cls(int(sol_max_rt))
