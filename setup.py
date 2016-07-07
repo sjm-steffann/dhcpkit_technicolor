@@ -55,15 +55,15 @@ setup(
     include_package_data=True,
     entry_points={
         'dhcpkit.ipv6.options': [
-            '65279 = dhcpkit_technicolor.sol_max_rt:SolMaxRTTechnicolorOption',
+            '65279 = dhcpkit_technicolor.options:SolMaxRTTechnicolorOption',
         ],
-        'dhcpkit.ipv6.option_handlers': [
-            'sol-max-rt-technicolor = dhcpkit_technicolor.sol_max_rt:SolMaxRTTechnicolorOptionHandler',
+        'dhcpkit.ipv6.server.extensions': [
+            'technicolor = dhcpkit_technicolor.server_extension',
         ],
     },
 
     install_requires=[
-        'dhcpkit >= 0.8.0',
+        'dhcpkit >= 0.9.0',
     ],
 
     test_suite='tests',
