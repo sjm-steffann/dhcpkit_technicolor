@@ -71,7 +71,7 @@ class SolMaxRTTechnicolorOption(Option):
         if option_len != 4:
             raise ValueError('SOL_MAX_RT Options must have length 4')
 
-        self.sol_max_rt = unpack_from('!I', buffer, offset=offset + my_offset)
+        self.sol_max_rt = unpack_from('!I', buffer, offset=offset + my_offset)[0]
         my_offset += 4
 
         self.validate()

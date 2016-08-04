@@ -8,4 +8,5 @@ Documentation
 
     config/index
     API <api/dhcpkit_technicolor>
+    changes
     license
