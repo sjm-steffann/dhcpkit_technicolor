@@ -17,6 +17,3 @@ Distribution status
 
 .. image:: https://img.shields.io/pypi/pyversions/dhcpkit_technicolor.svg
   :target: https://pypi.python.org/pypi/dhcpkit_technicolor
-
-.. image:: https://img.shields.io/pypi/dw/dhcpkit_technicolor.svg
-  :target: https://pypi.python.org/pypi/dhcpkit_technicolor
